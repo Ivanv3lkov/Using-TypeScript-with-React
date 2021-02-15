@@ -1,0 +1,17 @@
+{
+  "name": "simple-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "concurrently -k -n COMPILER,NODEMON -c yellow,blue \"tsc -w\" \"nodemon -w dist -q dist/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^2.0.1",
+    "typescript": "^3.7.2"
+  }
+}
