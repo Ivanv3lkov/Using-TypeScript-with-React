@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es6",
     "module": "es6",
     "strict": true,
     "noEmit": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+    //"allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "jsx": "react",
     "sourceMap": true,

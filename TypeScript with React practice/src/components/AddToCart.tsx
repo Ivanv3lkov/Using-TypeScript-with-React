@@ -1,5 +1,6 @@
 import React from 'react';
-import { useStateDispatch, CartItem } from './AppState';
+import { useStateDispatch, CartItem } from '../components/AppState';
+import {Pizza} from '../types'
 
 export interface AddToCartProps {
   addToCart: (item: Omit<CartItem, 'quantity'>) => void;
