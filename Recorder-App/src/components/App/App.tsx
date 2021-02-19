@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Recorder from '../Recorder';
 import Calendar from '../Calendar';
 

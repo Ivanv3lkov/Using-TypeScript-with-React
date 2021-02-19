@@ -1,4 +1,4 @@
-import { AnyAction, Action } from 'redux';
+import {  Action } from 'redux';
 import { ThunkAction } from 'redux-thunk';
 import { RootState } from './store';
 import { selectDateStart } from './recorder';
