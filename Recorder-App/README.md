@@ -3,5 +3,5 @@ The best structure is not used in this project, for example Redux is not devided
 
 1. Download the project.
 2. npm install
-3. Start the json-server ---> npx json-server -watch json-server/db.json --port 3001
+3. Start the json-server ---> npx json-server --watch json-server/db.json --port 3001
 4. Start the app --> npm start
