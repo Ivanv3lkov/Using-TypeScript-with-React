@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Jogging",
+      "dateStart": "2020-03-18T17:41:28.652Z",
+      "dateEnd": "2020-03-18T18:41:28.652Z"
+    },
+    {
+      "title": "Learning TypeScript",
+      "dateStart": "2020-03-18T19:00:28.652Z",
+      "dateEnd": "2020-03-18T20:00:28.652Z",
+      "id": 2
+    },
+    {
+      "title": "Learning JavaScript",
+      "dateStart": "2020-03-19T11:59:03.156Z",
+      "dateEnd": "2020-03-19T11:59:04.144Z",
+      "id": 3
+    }
+  ]
+}
