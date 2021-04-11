@@ -82,7 +82,7 @@ export const useStateDispatch = () => {
 };
 
 const AppStateProvider: React.FC = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, defaultStateValue);
+   const [state, dispatch] = useReducer(reducer, defaultStateValue);
 
   useEffect(() => {
     const cart = window.localStorage.getItem('cart');
