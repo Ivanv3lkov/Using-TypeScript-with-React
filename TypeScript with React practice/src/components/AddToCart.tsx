@@ -25,7 +25,6 @@ export function withAddToCart<OriginalProps extends AddToCartProps>(
       />
     );
   };
-
   return AddToCartHOC;
 }
 
