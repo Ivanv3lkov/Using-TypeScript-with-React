@@ -53,6 +53,5 @@ export const useAddToCart = () => {
       },
     });
   };
-
   return addToCart;
 };
