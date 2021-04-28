@@ -25,7 +25,6 @@ export function withAddToCart<OriginalProps extends AddToCartProps>(
       />
     );
   };
-
   return AddToCartHOC;
 }
 
@@ -54,6 +53,5 @@ export const useAddToCart = () => {
       },
     });
   };
-
   return addToCart;
 };
