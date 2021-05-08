@@ -33,10 +33,8 @@ const recorderReducer = (
   switch (action.type) {
     case START:
       return { ...state, dateStart: new Date().toISOString() };
-
     case STOP:
       return { ...state, dateStart: '' };
-
     default:
       return state;
   }
